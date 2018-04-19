@@ -76,7 +76,7 @@ test.cb('should be able to receive text type requests', t => {
   .expect(200)
   .end((err, res) => {
     if (err) throw err;
-    t.is(res.text, 'Berwin')
+    t.is(res.text, 'Berwin');
     t.end();
   });
 });
@@ -128,7 +128,7 @@ test.cb('should be able to receive xml type requests', t => {
   request(app.callback())
   .post('/')
   .set('Content-Type', 'text/xml')
-  .send("<root>Hello Berwin!</root>")
+  .send('<root>Hello Berwin!</root>')
   .expect(200)
   .end((err, res) => {
     if (err) throw err;
