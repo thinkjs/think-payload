@@ -171,6 +171,6 @@ test.cb('should be handle the error', t => {
     .expect('Content-Type', /json/)
     .expect(200)
     .end(err => {
-      if (err) t.end();
+      if (!err) t.end();
     });
 });
