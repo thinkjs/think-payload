@@ -1,3 +1,5 @@
+This repository has been migrated. For ongoing updates, please see https://github.com/thinkjs/thinkjs/tree/master/packages/think-payload.
+
 # think-payload
 [![npm](https://img.shields.io/npm/v/think-payload.svg)](https://www.npmjs.com/package/think-payload)
 [![Build Status](https://travis-ci.org/thinkjs/think-payload.svg?branch=master)](https://travis-ci.org/thinkjs/think-payload)
